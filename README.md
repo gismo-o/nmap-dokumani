@@ -2,7 +2,7 @@
 
 Bu proje, temel ağ güvenliği testlerini otomatik olarak gerçekleştirmek için hazırlanmış bir `.bat` (Windows Batch) dosyasını içerir.
 
-## 📌 İçerik
+## İçerik
 
 `.bat` dosyası şu işlemleri sırasıyla yapar:
 
@@ -20,22 +20,20 @@ Bu proje, temel ağ güvenliği testlerini otomatik olarak gerçekleştirmek iç
 - [Nmap](https://nmap.org/download.html) yüklü olmalıdır
   - Nmap yüklü değilse `.bat` dosyası çalışmaz
 
-## 🛠 Kullanım
+##  Kullanım
 
 1. `nmap-tarama.bat` dosyasını çift tıklayarak çalıştırın
 2. CMD ekranı açılır ve işlemler otomatik olarak yapılır
 3. Sonuçlar ekranda görüntülenir
 
-## 🎯 Amaç
+##  Amaç
 
-Bu betik, bilgi güvenliği eğitimi ve temel zafiyet testleri içindir. Gerçek sistemlerde kullanılmadan önce mutlaka izin alınmalıdır.
+Bu betik, bilgi güvenliği eğitimi ve temel zafiyet testleri içindir. 
 
-## 📁 Not
+## Not
 
 Varsayılan IP adresi `192.168.1.13` olarak ayarlanmıştır. Kendi cihazınızın IP’sini `ipconfig` ile öğrenip `.bat` dosyasında düzenleyebilirsiniz.
 
 ---
 
-### 👨‍⚖️ Yasal Uyarı
 
-Bu araç sadece **yasal ve izinli testler** için kullanılmalıdır. İzinsiz ağ taramaları etik değildir ve yasal sorunlara yol açabilir.
