@@ -68,3 +68,28 @@ chmod +x port_scan.sh
 Bu betik, Linux ortamında manuel işlem gerektirmeden temel güvenlik kontrollerinin yapılmasını sağlar. Eğitim ve deneme/test amaçlıdır.
 
 > Bu betik, ikinci cihazın analizi kapsamında geliştirilmiş olup [Pull Request #1](https://github.com/gismo-o/nmap-dokumani/pull/1) ile projeye dahil edilmiştir.
+
+
+# Nmap Port Tarama GUI
+
+Bu proje, *Nmap* kullanarak ağ ve sistemler üzerinde port taraması yapmayı sağlayan Python tabanlı basit bir grafik arayüz uygulamasıdır.  
+Program, farklı tarama seçenekleriyle ağ üzerindeki cihazların açık portlarını kolayca tespit etmenizi sağlar.
+
+## Özellikler
+
+- Hedef IP adresine göre temel port taraması
+- Servis ve sürüm bilgisi taraması
+- SMB ve MySQL zafiyet taramaları
+- VMware Auth (902) ve Apex Mesh (912) gibi özel portlar için hızlı tarama
+- Dilediğin portu manuel olarak tarayabilme (özel port kutusu)
+
+## Kullanım
+
+1. *Gereksinimler:*
+   - Python 3
+   - Tkinter (sudo apt install python3-tk)
+   - Nmap (sudo apt install nmap)
+
+2. *Çalıştırmak için:*
+   ```sh
+   python3 port_tarama_gui.py
