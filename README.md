@@ -93,3 +93,6 @@ Program, farklı tarama seçenekleriyle ağ üzerindeki cihazların açık portl
 2. *Çalıştırmak için:*
    ```sh
    python3 port_tarama_gui.py
+
+
+![uygulama_arayüzü](https://github.com/user-attachments/assets/b7e0f506-b145-4d08-8ee6-391611e00332)
